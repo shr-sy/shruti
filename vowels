@@ -3,6 +3,8 @@ echo "Enter a character"
 read a
 if [ "$a" == a ] || [ "$a" == e ] || [ "$a" == i ] || [ "$a" == o ] || ["$a" == u]; then
        echo "vowels"
+elif [ "$a" == A ] || [ "$a" == E ] || [ "$a" == I ] || [ "$a" == O ] || ["$a" == U]; then 
+       echo "vowels"
 else
        echo "consonants"
 fi       
