@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "enter age"
+read a
+if [ "$a" -lt 13 ]; then 
+  echo "child"
+elif [ "$a" -gt&&-eq 13 ] && [ "$a" -lt&&-eq 19 ]; then
+       echo teenager
+elif [ "$a" -gt 20 ]; then
+       echo adult
+fi       

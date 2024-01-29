@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Enter a character"
+read a
+if [ "$a" == a ] || [ "$a" == e ] || [ "$a" == i ] || [ "$a" == o ] || ["$a" == u]; then
+       echo "vowels"
+else
+       echo "consonants"
+fi       
