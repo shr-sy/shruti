@@ -6,7 +6,7 @@ if [ "$a" -lt 13 ]; then
 elif [ "$a" -ge 13 ] && [ "$a" -le 19 ]; then
   echo teenager
 elif [ "$a" -gt 60 ]; then
-  echo oldage
+  echo Oldage
 elif [ "$a" -ge 20 ]; then
   echo adult
 fi       
